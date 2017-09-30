@@ -32,6 +32,7 @@
     "jhipsterVersion": "4.9.0",
     "packageFolder": "io/github/jhipster/application",
     "jwtSecretKey": "89ab016eae2fad5a290dd90ea8c394385b67c9fe",
-    "jhiPrefix": "jhi"
+    "jhiPrefix": "jhi",
+    "herokuAppName": "powerful-badlands-27569"
   }
 }

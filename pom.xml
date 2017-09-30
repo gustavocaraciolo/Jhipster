@@ -630,6 +630,14 @@
                 </configuration>
             </plugin>
             <!-- jhipster-needle-maven-add-plugin -->
+            <plugin>
+                <groupId>com.heroku.sdk</groupId>
+                <artifactId>heroku-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <configuration>
+                    <appName>jhipster-ci-test</appName>
+                </configuration>
+            </plugin>
         </plugins>
         <pluginManagement>
             <plugins>
