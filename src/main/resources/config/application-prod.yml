@@ -28,9 +28,9 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: mysql://b006d484b6c233:93f46046@us-cdbr-iron-east-05.cleardb.net/heroku_9b2de09bc3aac9b?reconnect=true
-        #username: 
-        #password:
+        url: jdbc:mysql://localhost:3306/jhipster?useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password:
         hikari:
             data-source-properties:
                 cachePrepStmts: true
