@@ -29,8 +29,8 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: mysql://b006d484b6c233:93f46046@us-cdbr-iron-east-05.cleardb.net/heroku_9b2de09bc3aac9b?reconnect=true
-        username: 
-        password:
+        #username: 
+        #password:
         hikari:
             data-source-properties:
                 cachePrepStmts: true
